@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form sign-div none">
+        <form>
+            <label for="firstname">First Name: </label>
+            <input type="text" id="firstname" class="inputsign">
+
+            <label for="lastname">Last Name: </label>
+            <input type="text" id="lastname" class="inputsign">
+
+            <label for="name">Username: </label>
+            <input type="text" id="username" class="inputsign">
+
+            <label for="email">Your email: </label>
+            <input id="email" type="email" class="email inputsign">
+            
+            <label for="pass">Password: </label>
+            <input type="password" id="password" class="inputsign">
+        </form>
+        <button class="sign-up-btn">Sign In</button>
+        <button class="switch-to-login">Log in</button>
+    </div> <!--sign div-->
+
+    <div class="form login-div ">
+        <form>
+
+            <label for="name">Email or username: </label>
+            <input type="text" id="login-username" class="input">
+
+            <label for="pass">Password: </label>
+            <input type="password" id="login-password"  class="input">
+        </form>
+        <button class="login-btn ">Log in</button>
+        <button class="sign-in">Sign In</button>
+        <p class="wrong-info none">Email/username or password that you used do not match any account available.</p>
+    </div> <!--sign div-->
+
+    <main class="main none">
+        <div class="header">
+            <p class="logo">Blog</p>
+            <button class="log-out">Log out</button>
+            <p class="ime-prezime">Ivana Zirojevic</p>
+        </div>
+    <div class="wrapper">
+        <div class="add-new">
+            
+                <div class="card">
+                    <h2>Create a new post</h2>
+                    <input type="text" class="post-title" placeholder="Post title">
+                    <textarea placeholder="What's on your mind ?" id="post-body" cols="30" rows="10"></textarea>
+                    <button class="post-btn">Post</button>
+
+        </div>
+
+        <div class="content">
+        </div> <!--content-->
+
+    </div>
+    </main>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
